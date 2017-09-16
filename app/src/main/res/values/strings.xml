@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AIC</string>
+    <string name="ImageContent">ProfilePicture</string>
+    <string name="textHolder">Github Username</string>
+    <string name="linkPlaceholder">http://www.github.com/{user.name}</string>
+    <string name="userPlaceholder">Username:</string>
+    <string name="link">Link:</string>
+    <string name="connectionError">Check Your Internet Connection</string>
+</resources>

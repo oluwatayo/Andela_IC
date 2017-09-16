@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:contentDescription="Large Image"
+        android:id="@+id/largeProfilePic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/header"
+        android:fontFamily="monospace"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userPlaceholder"
+        android:layout_below="@+id/largeProfilePic"
+        />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/username_here"
+        android:layout_below="@id/largeProfilePic"
+        android:layout_toRightOf="@id/header"
+        android:layout_toEndOf="@id/header"/>
+
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:fontFamily="monospace"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_github_link"
+            android:text="@string/link"
+            android:layout_below="@id/username_here"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_github_link_here"
+            android:text=""
+            android:layout_below="@id/header"
+            android:layout_toRightOf="@id/detail_github_link"
+            android:layout_toEndOf="@id/detail_github_link"/>
+
+
+
+
+</RelativeLayout>
